@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
 }
 
 a {
@@ -99,4 +100,32 @@ a {
 }
 .attribution {
     font-size: 8px;
+}
+.button {
+    position: relative;
+    display: block;
+    padding: 13px 25px;
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    font-size: 18px;
+    line-height: 24px;
+
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+
+    margin-bottom: 50px;
+    text-align: center;
+    transition: 0.2s;
+}
+.button:hover {
+    background-color: black;
+    border: black;
+    color: whitesmoke;
 }
